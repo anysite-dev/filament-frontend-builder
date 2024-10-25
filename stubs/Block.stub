@@ -1,0 +1,21 @@
+<?php
+
+namespace {{ namespace }};
+
+use Filament\Forms\Components\Builder\Block;
+use AnysiteDev\FilamentFrontendBuilder\Blocks\Block as FrontendBlock;
+use Filament\Forms;
+
+class {{ class }} extends FrontendBlock
+{
+    public static function getBlockSchema(): Block
+    {
+        return Block::make('{{ shortName }}')
+            ->label('{{ label }}')
+            ->icon('heroicon-o-rectangle-stack')
+            ->preview('{{ componentPath }}')
+            ->schema([
+                // Forms\Components\TextInput::make('title'),
+            ]);
+    }
+}

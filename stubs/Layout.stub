@@ -1,0 +1,10 @@
+<?php
+
+namespace {{ namespace }};
+
+use AnysiteDev\FilamentFrontendBuilder\Layouts\Layout;
+
+class {{ class }} extends Layout
+{
+    protected static ?string $name = '{{ shortName }}';
+}

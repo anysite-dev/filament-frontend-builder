@@ -1,0 +1,10 @@
+@props(['page'])
+
+<x-layouts.base>
+
+    {{--<x-ffb::blocks :blocks="$page->blocks" />--}}
+
+    {{--{{ $slot }}--}}
+
+</x-layouts.base>
+
